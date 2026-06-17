@@ -1,0 +1,656 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "hdf5-cpp": {
+        "pkg-path": "hdf5-cpp"
+      },
+      "lzlib": {
+        "pkg-path": "lzlib"
+      },
+      "nlohmann_json": {
+        "pkg-path": "nlohmann_json"
+      },
+      "openblas": {
+        "pkg-path": "openblas"
+      },
+      "zlib": {
+        "pkg-path": "zlib"
+      }
+    },
+    "vars": {
+      "OPENBLAS_NUM_THREADS": "1"
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "hdf5-cpp",
+      "broken": false,
+      "derivation": "/nix/store/g8d3n8vacbjw6mhrdkmg6inqkz1am7cf-hdf5-cpp-1.14.6.drv",
+      "description": "Data model, library, and file format for storing and managing data",
+      "install_id": "hdf5-cpp",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "hdf5-cpp-1.14.6",
+      "pname": "hdf5-cpp",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T03:13:29.738805Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.14.6",
+      "outputs_to_install": [
+        "bin"
+      ],
+      "outputs": {
+        "bin": "/nix/store/rj64hsdlcpydsgrrhb7aky1gbp9rp59y-hdf5-cpp-1.14.6-bin",
+        "dev": "/nix/store/asin7y3qfzrsb8m50z5wyjpirq3gy9gz-hdf5-cpp-1.14.6-dev",
+        "out": "/nix/store/69y84l34pki4505nc9lc1anwr2h72415-hdf5-cpp-1.14.6"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "hdf5-cpp",
+      "broken": false,
+      "derivation": "/nix/store/7sldnnikyp0m1nhazqqa1vg125ls7w41-hdf5-cpp-1.14.6.drv",
+      "description": "Data model, library, and file format for storing and managing data",
+      "install_id": "hdf5-cpp",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "hdf5-cpp-1.14.6",
+      "pname": "hdf5-cpp",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T03:44:28.424126Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.14.6",
+      "outputs_to_install": [
+        "bin",
+        "bin"
+      ],
+      "outputs": {
+        "bin": "/nix/store/8app4jjjdgmgindv1da0sj0rv31hi2ij-hdf5-cpp-1.14.6-bin",
+        "dev": "/nix/store/a5j17mdw3pq9rplc62srk12kwj9pck78-hdf5-cpp-1.14.6-dev",
+        "out": "/nix/store/yqxlmg3s14207zgg3slrxjq72i2wggq8-hdf5-cpp-1.14.6"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "hdf5-cpp",
+      "broken": false,
+      "derivation": "/nix/store/qk78z601aqnixnbdsghkqfh7d1srs5lw-hdf5-cpp-1.14.6.drv",
+      "description": "Data model, library, and file format for storing and managing data",
+      "install_id": "hdf5-cpp",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "hdf5-cpp-1.14.6",
+      "pname": "hdf5-cpp",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T04:13:22.473923Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.14.6",
+      "outputs_to_install": [
+        "bin"
+      ],
+      "outputs": {
+        "bin": "/nix/store/8n4mw6b4salnxc4pnv99jk4wrbn34834-hdf5-cpp-1.14.6-bin",
+        "dev": "/nix/store/f2xg9np37idw7mglz9z241iimkdgkvz1-hdf5-cpp-1.14.6-dev",
+        "out": "/nix/store/h0i2cjxfr53c0k9vp0df39286p2rypn4-hdf5-cpp-1.14.6"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "hdf5-cpp",
+      "broken": false,
+      "derivation": "/nix/store/hr1jh36l5nv4gimrksf69njhmbnxq7gg-hdf5-cpp-1.14.6.drv",
+      "description": "Data model, library, and file format for storing and managing data",
+      "install_id": "hdf5-cpp",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "hdf5-cpp-1.14.6",
+      "pname": "hdf5-cpp",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T04:47:25.561315Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.14.6",
+      "outputs_to_install": [
+        "bin",
+        "bin"
+      ],
+      "outputs": {
+        "bin": "/nix/store/b4vgxqxba5w4w17dv913ajcpdinl6msi-hdf5-cpp-1.14.6-bin",
+        "dev": "/nix/store/553608ndcf0sxvjg73v323vkggrzia5v-hdf5-cpp-1.14.6-dev",
+        "out": "/nix/store/kggm5lpsksgpw9l2025aa78dq65ix3f2-hdf5-cpp-1.14.6"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "lzlib",
+      "broken": false,
+      "derivation": "/nix/store/jgfrp4a277lisjxjkmfqhkwy62lypgln-lzlib-1.16.drv",
+      "description": "Data compression library providing in-memory LZMA compression and decompression functions, including integrity checking of the decompressed data",
+      "install_id": "lzlib",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "lzlib-1.16",
+      "pname": "lzlib",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T03:13:36.425623Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.16",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/srnsafv0kykkpw3i4lyczmvhzc1sd641-lzlib-1.16-info",
+        "out": "/nix/store/df6h8dm4rlvrd0ac6a001r418mlk7q1p-lzlib-1.16"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "lzlib",
+      "broken": false,
+      "derivation": "/nix/store/sz9izx1q4jxrv65cj3gg8h6jixg2kwm5-lzlib-1.16.drv",
+      "description": "Data compression library providing in-memory LZMA compression and decompression functions, including integrity checking of the decompressed data",
+      "install_id": "lzlib",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "lzlib-1.16",
+      "pname": "lzlib",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T03:44:43.612551Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.16",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/4khhi0cpcmhsdx2q7l2cyrnrazimfz0k-lzlib-1.16-info",
+        "out": "/nix/store/s5z8ldvswd0lcynh6jb1plbj486rsdhi-lzlib-1.16"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "lzlib",
+      "broken": false,
+      "derivation": "/nix/store/8hyy0b6bcmmr0hsbmfh4ga7xgcrsri4l-lzlib-1.16.drv",
+      "description": "Data compression library providing in-memory LZMA compression and decompression functions, including integrity checking of the decompressed data",
+      "install_id": "lzlib",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "lzlib-1.16",
+      "pname": "lzlib",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T04:13:29.552190Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.16",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/hgnv8mw7il6384hydrm45qjfbbvcq7y3-lzlib-1.16-info",
+        "out": "/nix/store/ia2qfgcb2m4q0rcy92ghp8zkjis9z3y0-lzlib-1.16"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "lzlib",
+      "broken": false,
+      "derivation": "/nix/store/yzwfh9hzpm9xjvgdba5s570kbci44y1j-lzlib-1.16.drv",
+      "description": "Data compression library providing in-memory LZMA compression and decompression functions, including integrity checking of the decompressed data",
+      "install_id": "lzlib",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "lzlib-1.16",
+      "pname": "lzlib",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T04:47:42.994796Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.16",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/0sc5wpw30rkj3my3r4l57122nnana1g5-lzlib-1.16-info",
+        "out": "/nix/store/wnpdjrkrbxy3qj7bsgrnhqsyl42dla5b-lzlib-1.16"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nlohmann_json",
+      "broken": false,
+      "derivation": "/nix/store/dcf8g0hkh5dj4a0fawv2vf1v8f3fkxm7-nlohmann_json-3.12.0.drv",
+      "description": "JSON for Modern C++",
+      "install_id": "nlohmann_json",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "nlohmann_json-3.12.0",
+      "pname": "nlohmann_json",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T03:13:38.987432Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/82x006gfmrvjdl2vnpswjmhhvjbdbg7c-nlohmann_json-3.12.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nlohmann_json",
+      "broken": false,
+      "derivation": "/nix/store/8r81zmbd8pvljqdp0shvmnrdmfw0frfm-nlohmann_json-3.12.0.drv",
+      "description": "JSON for Modern C++",
+      "install_id": "nlohmann_json",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "nlohmann_json-3.12.0",
+      "pname": "nlohmann_json",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T03:44:47.837743Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.0",
+      "outputs_to_install": [
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/lr608szmy01qa76f62153iwzf2sqm4f7-nlohmann_json-3.12.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nlohmann_json",
+      "broken": false,
+      "derivation": "/nix/store/440yhkb6frmydv0ar7lg8mfddphzayf3-nlohmann_json-3.12.0.drv",
+      "description": "JSON for Modern C++",
+      "install_id": "nlohmann_json",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "nlohmann_json-3.12.0",
+      "pname": "nlohmann_json",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T04:13:32.232899Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/04gvdcd4xvyifddvn6c8sjsplpydnrjn-nlohmann_json-3.12.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nlohmann_json",
+      "broken": false,
+      "derivation": "/nix/store/by9y64a1g0qw5455kka9ylmhfs3m33dy-nlohmann_json-3.12.0.drv",
+      "description": "JSON for Modern C++",
+      "install_id": "nlohmann_json",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "nlohmann_json-3.12.0",
+      "pname": "nlohmann_json",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T04:47:47.615256Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.0",
+      "outputs_to_install": [
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/5i4vlg770yqgglhm2i80kz6nvckd30yl-nlohmann_json-3.12.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "openblas",
+      "broken": false,
+      "derivation": "/nix/store/8fxcra5dhnx2q5v2xizgm2bh6cghk5j6-openblas-0.3.32.drv",
+      "description": "Basic Linear Algebra Subprograms",
+      "install_id": "openblas",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "openblas-0.3.32",
+      "pname": "openblas",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T03:13:44.408107Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.3.32",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/k6cbm1cdhld9crq24yv15428r25b1k9m-openblas-0.3.32-dev",
+        "out": "/nix/store/k3pijh4qqs4ydbq4297h8p1y131fwcb9-openblas-0.3.32"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "openblas",
+      "broken": false,
+      "derivation": "/nix/store/zpmp3is8pzx7r5pcsf577nrm60a1xxmq-openblas-0.3.32.drv",
+      "description": "Basic Linear Algebra Subprograms",
+      "install_id": "openblas",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "openblas-0.3.32",
+      "pname": "openblas",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T03:44:54.919204Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.3.32",
+      "outputs_to_install": [
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/r61x77332h861jqacjabnfzp4rkxyk2l-openblas-0.3.32-dev",
+        "out": "/nix/store/hv9l0yy174ryxvl7fqpiz3n1haascgia-openblas-0.3.32"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "openblas",
+      "broken": false,
+      "derivation": "/nix/store/k0mvfi1zx62lqj89lzsqia7h3rj2jzny-openblas-0.3.32.drv",
+      "description": "Basic Linear Algebra Subprograms",
+      "install_id": "openblas",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "openblas-0.3.32",
+      "pname": "openblas",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T04:13:37.725187Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.3.32",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/k0b4bxbg6vav5ijk9qiqmryg98sknkia-openblas-0.3.32-dev",
+        "out": "/nix/store/baslajzhfr02vn3xwki19a71fmh73fvg-openblas-0.3.32"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "openblas",
+      "broken": false,
+      "derivation": "/nix/store/3ql7cb0ck6ifsznyskni0092vg5q9p33-openblas-0.3.32.drv",
+      "description": "Basic Linear Algebra Subprograms",
+      "install_id": "openblas",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "openblas-0.3.32",
+      "pname": "openblas",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T04:47:55.001952Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.3.32",
+      "outputs_to_install": [
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/q4xvvi2j2y3nv1y9ihb32g53y5y844rw-openblas-0.3.32-dev",
+        "out": "/nix/store/v07svn2y92bvzjl51aj7c9ca1cwg7rw7-openblas-0.3.32"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zlib",
+      "broken": false,
+      "derivation": "/nix/store/rv0bh74zqyg6w8ag3m3ygpwa8ggq8vcf-zlib-1.3.2.drv",
+      "description": "Lossless data-compression library",
+      "install_id": "zlib",
+      "license": "Zlib",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "zlib-1.3.2",
+      "pname": "zlib",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T03:16:19.916193Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.2",
+      "outputs_to_install": [
+        "out",
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/qa3fdfbs0ypr76higqa87rc169fnq2gx-zlib-1.3.2-dev",
+        "out": "/nix/store/7fd0wqc1740i2aarz17d32q27df3kzz4-zlib-1.3.2",
+        "static": "/nix/store/c2sl2xgzjv2d6n2j0d2v7wadsnxf2s48-zlib-1.3.2-static"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zlib",
+      "broken": false,
+      "derivation": "/nix/store/7l918lx0fl3j6bs5myfl91l5dd7ms433-zlib-1.3.2.drv",
+      "description": "Lossless data-compression library",
+      "install_id": "zlib",
+      "license": "Zlib",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "zlib-1.3.2",
+      "pname": "zlib",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T03:48:05.289988Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.2",
+      "outputs_to_install": [
+        "out",
+        "out",
+        "out",
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/7rg03mkfypjv3b067rj2r0xasm4lqr22-zlib-1.3.2-dev",
+        "out": "/nix/store/zy2b11c58p52qi6ca6ashdl3qhfmipxg-zlib-1.3.2",
+        "static": "/nix/store/4ksy2yms4sv6a6n70m4fmy90mz2wpfqn-zlib-1.3.2-static"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zlib",
+      "broken": false,
+      "derivation": "/nix/store/f7ckdkzb6li25xw5g8h8qdc1k1ixs848-zlib-1.3.2.drv",
+      "description": "Lossless data-compression library",
+      "install_id": "zlib",
+      "license": "Zlib",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "zlib-1.3.2",
+      "pname": "zlib",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T04:16:14.178469Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.2",
+      "outputs_to_install": [
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/a5w58n9fmgfs5j5kwi7pr6x7bsni2s5k-zlib-1.3.2-dev",
+        "out": "/nix/store/l1ws496f5l50nn76m3m2hwshab91xhz2-zlib-1.3.2",
+        "static": "/nix/store/zaqmd5zqxyr218znl6xc9gjvr4im2b71-zlib-1.3.2-static"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zlib",
+      "broken": false,
+      "derivation": "/nix/store/nf9d42gssxwv5i3ln0wclcyhnjszfqk4-zlib-1.3.2.drv",
+      "description": "Lossless data-compression library",
+      "install_id": "zlib",
+      "license": "Zlib",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "name": "zlib-1.3.2",
+      "pname": "zlib",
+      "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+      "rev_count": 1017464,
+      "rev_date": "2026-06-16T02:33:49Z",
+      "scrape_date": "2026-06-17T04:51:09.582296Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.2",
+      "outputs_to_install": [
+        "out",
+        "out",
+        "out",
+        "out",
+        "out",
+        "out",
+        "out",
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/h7ik0g1xxayy0z8h27zbvrgmac63irgs-zlib-1.3.2-dev",
+        "out": "/nix/store/61a1nwx3w6rqyaisj5rn1sal1981apm7-zlib-1.3.2",
+        "static": "/nix/store/xn70pn0qd5jhdvp5rikgn1yl9bbmyxiq-zlib-1.3.2-static"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}

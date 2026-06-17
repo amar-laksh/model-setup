@@ -1,0 +1,29 @@
+
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "clean build",
+      "type": "shell",
+      "command": "rm -rf build && rm -rf external/rl_tools/.dependencies/  && mkdir build && cmake . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build --target my_pendulum -j$(nproc)",
+    },
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "cmake --build build --target my_pendulum -j$(nproc) && ./build/my_pendulum",
+    },
+    {
+      "label": "train",
+      "type": "shell",
+      "command": "./build/my_pendulum",
+    },
+    {
+      "label": "serve",
+      "type": "shell",
+      "command": "./external/rl_tools/tools/serve.sh",
+    },
+  ]
+}
+
