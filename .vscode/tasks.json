@@ -7,7 +7,7 @@
     {
       "label": "clean build",
       "type": "shell",
-      "command": "rm -rf build && rm -rf external/rl_tools/.dependencies/  && mkdir build && cmake . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build --target my_pendulum -j$(nproc)",
+      "command": "echo 'set(CMAKE_EXPORT_COMPILE_COMMANDS ON)' >> external/rl_tools/CMakeLists.txt && rm -rf build && rm -rf external/rl_tools/.dependencies/  && mkdir build && cmake . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build --target my_pendulum -j$(nproc)",
     },
     {
       "label": "build",

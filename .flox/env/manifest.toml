@@ -20,6 +20,7 @@ openblas.pkg-path = "openblas"
 hdf5-cpp.pkg-path = "hdf5-cpp"
 zlib.pkg-path = "zlib"
 lzlib.pkg-path = "lzlib"
+clang-tools.pkg-path = "clang-tools"
 # gum.pkg-path = "gum"
 # gum.version = "^0.14.5"
 

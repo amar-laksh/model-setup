@@ -4,6 +4,7 @@ project(rl-tools-example)
 add_subdirectory(external/rl_tools)
 
 set(FETCHCONTENT_UPDATES_DISCONNECTED ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 include(FetchContent)
 
 add_executable(my_pendulum src/main.cpp)
